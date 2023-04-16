@@ -1,11 +1,11 @@
-# <img src="https://user-images.githubusercontent.com/872224/232309182-c3208281-056b-4833-adcc-909d570937bc.png" width="40" height="40" /> Field Advantage 
+# <img src="./assets/logo.png" width="40" height="40" /> Field Advantage
 
 ALWAYS GIVING THE HOME FIELD ADVANTAGE
 
 ## Services
 
 <div style="width: 100%;">
-  <img src="nationwide-coverage.svg" style="width: 100%;">
+  <img src="./assets/nationwide-coverage.svg" style="width: 100%;">
 </div>
 
 ### Site Surveys
@@ -17,7 +17,7 @@ Field Advantage provides site surveys for many of our clients. In certain instan
 Also known as rollouts, Field Advantage understands that deployments can be as simple as a few locations or as complex as thousands of sites nationwide. Regardless of the scope, we are committed to ensuring our clients receive the best possible service and support. We assign a senior project manager for each deployment project, and our senior project managers ensure that each technician has the correct credentials and experience to guarantee quality and help eliminate errors. At Field Advantage, we never leave a job unfinished and our comprehensive methods for deployment scheduling and implementation have made us a leader in the industry.
 
 <div style="width: 100%;">
-  <img src="creative-solutions.svg" style="width: 100%;">
+  <img src="./assets/creative-solutions.svg" style="width: 100%;">
 </div>
 
 ### Digital Menu Boards and Signage
@@ -32,9 +32,9 @@ With the Internet of Things (IOT) revolutionizing the way we do business, proper
 
 ### PETROLEUM INDUSTRY
 
----
-_Advancing an industry with their technological transition_
----
+<div style="width: 100%;">
+  <img src="./assets/advanced-industry.svg" style="width: 100%;">
+</div>
 
 #### EMV Upgrade
 
@@ -44,9 +44,9 @@ Transitioning every pump in the US to accept EMV is an incredibly large undertak
 
 Along with the EMV upgrade, the petroleum industry is working towards managing the pumps from a centralized cloud infrastructure.  Field Advantage takes the guess work out of this process.  Our technicians understand the underlying infrastructure and are experts in this type of conversion.  With our exhaustive national network of technicians, all stores can finally have the service they have been asking for.
 
----
-**EXPERIENCED TECHNICIANS**
----
+<div style="width: 100%;">
+  <img src="./assets/experienced-technicians.svg" style="width: 100%;">
+</div>
 
 ### Cable Management
 
@@ -56,10 +56,9 @@ At Field Advantage, we understand how important cable management is. Running cab
 
 Point of Sale systems are vital for any retail company.  At Field Advantage, we understand that Network, POS, or Printer issues are never welcome, especially during your busiest seasons.  Our periodic preventative maintenance services will help ensure the longevity of your POS units as well as identify any issues before they become a major problem.
 
-
----
-**DEDICATED PROJECT MANAGERS**
----
+<div style="width: 100%;">
+  <img src="./assets/dedicated-managers.svg" style="width: 100%;">
+</div>
 
 ### Special Teams
 
@@ -69,9 +68,9 @@ At Field Advantage, we understand that consistency is paramount for any successf
 
 We are experienced with working with many retailers as their onsite warranty provider.  We understand that our clients who purchase additional warranties expect quick service from knowledgeable technicians.  Our Field Advantage technicians are highly skilled in diagnosing problems and if a warranty issue is discovered, will take immediate action remedy the problem.  We understand that resolutions can come in many ways; maintenance, parts replacement, and sometimes entire unit swaps may be necessary. At Field Advantage, we work with our clients and the end users to make sure that both parties are more than satisfied.
 
----
-**TWENTY-FOUR/SEVEN SUPPORT**
----
+<div style="width: 100%;">
+  <img src="./assets/twenty-four-seven.svg" style="width: 100%;">
+</div>
 
 ### Remote Support
 
