@@ -1,0 +1,32 @@
+<svg fill="none" viewBox="0 0 600 300" width="600" height="300" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        .separator {
+          display: flex;
+          align-items: center;
+          text-align: center;
+        }
+
+        .separator::before,
+        .separator::after {
+          content: '';
+          flex: 1;
+          border-bottom: 1px solid #000;
+        }
+
+        .separator:not(:empty)::before {
+          margin-right: .25em;
+        }
+
+        .separator:not(:empty)::after {
+          margin-left: .25em;
+        }
+      </style>
+
+      <div class="container">
+        <p class="separator">Nationwide Coverage</p>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
