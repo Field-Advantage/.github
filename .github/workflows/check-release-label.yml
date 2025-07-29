@@ -1,0 +1,38 @@
+name: Release Label Checker
+
+on:
+  pull_request:
+    types:
+      - labeled
+      - unlabeled
+      - opened
+      - edited
+      - reopened
+      - synchronize
+      - ready_for_review
+    branches:
+      - main
+      - development
+  workflow_call:
+
+jobs:
+  check_labels:
+    name: Check labels
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check Label
+      if: |
+        contains(github.event.pull_request.labels.*.name, 'release/major') ||
+        contains(github.event.pull_request.labels.*.name, 'release/minor') ||
+        contains(github.event.pull_request.labels.*.name, 'release/patch') ||
+        contains(github.event.pull_request.labels.*.name, 'release/skip')
+      run: exit 0
+    - name: Check Label inverse
+      if: |
+        !contains(github.event.pull_request.labels.*.name, 'release/major') &&
+        !contains(github.event.pull_request.labels.*.name, 'release/minor') &&
+        !contains(github.event.pull_request.labels.*.name, 'release/patch') &&
+        !contains(github.event.pull_request.labels.*.name, 'release/skip')
+      run: |
+        echo "::error title=Missing Label::Release label is missing. Must contain one of: ['release/major','release/minor','release/patch','release/skip']"
+        exit 1
